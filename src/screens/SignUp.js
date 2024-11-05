@@ -61,7 +61,7 @@ const SignUp = () => {
       <ScrollView contentContainerStyle={styles.scrollViewContent}>
         <View style={styles.container}>
           {/* Agregar la imagen del logo encima del contenedor del formulario */}
-          <Image source={require('../../assets/logo.jpg')} style={styles.logo} />
+         {/* <Image source={require('../../assets/logo.jpg')} style={styles.logo} /> */}
           <Text style={styles.title}>Alpha Store </Text>
           <Card style={styles.profileCard}>
             <Card.Content>

@@ -62,7 +62,7 @@ const SignUp = () => {
         <View style={styles.container}>
           {/* Agregar la imagen del logo encima del contenedor del formulario */}
          {/* <Image source={require('../../assets/logo.jpg')} style={styles.logo} /> */}
-          <Text style={styles.title}>Alpha Store </Text>
+          <Text style={styles.title}> Practica </Text>
           <Card style={styles.profileCard}>
             <Card.Content>
               <Text style={styles.title}>Registrarse </Text>

@@ -60,5 +60,5 @@ if (storage) {
 const authentication = initializeAuth(app, {
   persistence: getReactNativePersistence(AsyncStorage)
 });
- 
+console.log(firebaseConfig);
 export { database, storage, authentication };

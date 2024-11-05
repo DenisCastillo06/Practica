@@ -102,7 +102,7 @@ const SignUp = () => {
                 Registrarse
               </Button>
               <TouchableOpacity
-                onPress={() => navigation.navigate("LogIn")} // Ajusta el nombre de la pantalla de inicio de sesión
+                onPress={() => navigation.navigate("Login")} // Ajusta el nombre de la pantalla de inicio de sesión
               >
                 <Text style={styles.loginText}>
                   ¿Ya tienes cuenta? Inicia sesión aquí
